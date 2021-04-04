@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="JobApplicationProj3.OpenningPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JobApplicationProj3"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Page_Loaded">
+
+    <Grid x:Name="myGrid">
+        <Button x:Name="startButton" Content="Start" Height="50" Width="200" HorizontalAlignment="Center" Margin="0,300,0,0" FontSize="15" Click="startButton_Click"></Button>
+        <Image x:Name="playerChooser" Source="Assets/C1/CDown/CDown2.png" Height="100" Width="100"></Image>
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0" Text="The DEATH" Height="100" Width="300" Foreground="DarkMagenta" TextAlignment="Center" FontSize="60" FontFamily="Brush Script MT"></TextBlock>
+        <TextBlock Text="Maze" Height="50" Width="300" TextAlignment="Center" FontSize="45" FontFamily="Brush Script MT" Foreground="CadetBlue" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="700,175,0,0"></TextBlock>
+        <TextBlock Text="To choose a player press the left/right buttons on your keyboard" TextAlignment="Center" FontSize="20" Height="50" Width="600" Margin="0,-150,0,0"></TextBlock>
+    </Grid>
+</Page>
